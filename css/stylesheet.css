@@ -1,17 +1,68 @@
 /*stylesheet.css */
 body {
- background-image: url(./images/background.jpg) 
+ background-image: url(./images/background.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
  background-color: #333300;
  color: #FFFFFF;
 }
 h1 {
- color: #FFFF33;
+ color:brown;
  text-align: center;
- font: italic 200% fantasy;
+ font: bold 200% fantasy;
 }
 p {
- background-color: #FFFF33;
- color: #333300;
- text-align: right;
+ background-color: black;
+ color:brown;
+ text-align: center;
  border: 3px groove #FFFF33;
+}
+
+input.MyButton {
+width: 300px;
+padding: 20px;
+cursor: pointer;
+font-weight: bold
+font-size: 150%;
+align-content: center;
+background: #3366cc;
+color: #fff;
+border: 1px solid #3366cc;
+border-radius: 10px;
+-moz-box-shadow:: 6px 6px 5px #999;
+-webkit-box-shadow:: 6px 6px 5px #999;
+box-shadow:: 6px 6px 5px #999;
+}
+input.MyButton:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0%;
+  padding: 1px;
+  height: 1000px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
