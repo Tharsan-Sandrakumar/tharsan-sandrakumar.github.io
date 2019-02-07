@@ -1,0 +1,4 @@
+function f() {
+    document.getElementById("welcme").innerHTML = "Welcome To My Page";
+    document.getElementById("welinfo").innerHTML = "TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT";
+}
